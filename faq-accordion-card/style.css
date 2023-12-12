@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    height: 100dvh;
+    width: 100vw;
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%) );
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main {
+    background-color: white;
+    width: 70%;
+    height: 60%;
+    border-radius: 2rem;
+}
+
+.container {
+    width: 63rem;
+    height: 33.6rem;
+    display: grid;
+    grid-template-rows: 33.6rem;
+}
+
+.position-setting {
+    margin-left: -7rem;
+    grid-area: 1 / 1;
+}
+
+#image-1 {
+    
+}
